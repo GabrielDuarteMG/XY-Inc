@@ -44,14 +44,17 @@ public class XYInc {
             System.out.printf("\nDigite a cordenada Y: ");
             PontoY = input3.nextInt();
             Scanner input4 = new Scanner(System.in);
-            int Raio;
-            System.out.printf("\nDigite o raio: ");
-            Raio = input4.nextInt();
+            int DistanciaMaxima;
+            System.out.printf("\nDigite a distancia maxima: ");
+            DistanciaMaxima = input4.nextInt();
             for (int x = 0; x < Locais.size(); x++) {
-                int contX = CordsX.get(x) - PontoX;
-                int contY = CordsY.get(x) - PontoY;
-                if (contX <= Raio && contY <= Raio)
-                    System.out.printf("\n" + Locais.get(x));
+                int contX = PontoX + DistanciaMaxima;
+                int contY = PontoY + DistanciaMaxima;
+                if (CordsX.get(x) <= contX && CordsY.get(x) <= contY) {
+                    contX = (CordsX.get(x) - CordsY.get(x)) - DistanciaMaxima;
+                    if (contX <= DistanciaMaxima)
+                        System.out.printf("\n" + Locais.get(x));
+                }
             }
         } else
             Exportar();
@@ -79,7 +82,8 @@ public class XYInc {
         File inioutfile = new File(dir + "/Base.ini");
         Wini Arquivo = new Wini(new File(inioutfile.getAbsolutePath()));
         for (int x = 0; x < Arquivo.get("Config", "CordsTotal", int.class); x++) {
-            Registrar(Arquivo.get(Integer.toString(x), "Local"), Arquivo.get(Integer.toString(x), "CordX", int.class), Arquivo.get(Integer.toString(x), "CordY", int.class));
+            Registrar(Arquivo.get(Integer.toString(x), "Local"),
+                Arquivo.get(Integer.toString(x), "CordX", int.class), Arquivo.get(Integer.toString(x), "CordY", int.class));
         }
         QntTotal = Locais.size();
     }
@@ -106,7 +110,6 @@ public class XYInc {
         }
     }
     public static void Registrar(String Nome, int X, int Y) {
-        int QntAtual = QntTotal;
         QntTotal++;
         Locais.add(Nome);
         CordsX.add(X);
