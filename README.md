@@ -2,9 +2,9 @@
 *Plataforma que fornece inteligencia para um software que auxilia pessoas na localização de ponto de interesse (POIs)*
 
  **Ferramentas para desenvolvimento**
-	 1. NetBeans
-	 2. GitHub
-	 3. [ini4j ](http://ini4j.sourceforge.net/)
+  1. NetBeans
+  2. GitHub
+  3. [ini4j ](http://ini4j.sourceforge.net/)
 
 
 # Imagens
