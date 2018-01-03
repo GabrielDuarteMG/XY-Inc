@@ -46,11 +46,9 @@ As outras chaves são numeradas de 0 Até CordsTotal - 1, e dentro possui as se�
  3. CordY(Coordenada Y)
 
 *Padrão das chaves*
+
 [Numero de zero á CordsTotal - 1]
-
 Local =  Nome
-
 CordX = CoordenadaX
-
 CordY = CoordenadaY
 
