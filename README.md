@@ -11,24 +11,31 @@
 **Imports**
 
 ![](https://i.imgur.com/bmyz5Qj.png)
+
 **Listas para organizar as coordenadas como itens**
 
 ![](https://i.imgur.com/5oZ7Anq.png)
+
 **Adicionando item na lista**
 
 ![](https://i.imgur.com/V3Nngzy.png)
+
 **Exportando os items para um arquivo .ini**
 
 ![](https://i.imgur.com/SggOSIs.png)
+
 **Modelo de arquivo .ini**
 
 ![](https://i.imgur.com/hmrvHd7.png)
+
 **Leitura do arquivo .ini e importando os items**
 
 ![](https://i.imgur.com/Axx115w.png)
+
 **Função para encontrar os POIs mais próximos**
 
 ![](https://i.imgur.com/AO3PFlf.png)
+
 # Arquivo INI
 **Chave Config**
 Disponibiliza a quantidade total de coordenadas disponíveis, através da seção CordsTotal.
