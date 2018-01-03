@@ -9,19 +9,19 @@
 
 # Imagens
 **Imports**
-![Item](https://i.imgur.com/bmyz5Qj.png)
+![](https://i.imgur.com/bmyz5Qj.png)
 **Listas para organizar as coordenadas como itens**
-![Item](https://i.imgur.com/5oZ7Anq.png)
+![](https://i.imgur.com/5oZ7Anq.png)
 **Adicionando item na lista**
-![Item](https://i.imgur.com/V3Nngzy.png)
+![](https://i.imgur.com/V3Nngzy.png)
 **Exportando os items para um arquivo .ini**
-![Item](https://i.imgur.com/SggOSIs.png)
+![](https://i.imgur.com/SggOSIs.png)
 **Modelo de arquivo .ini**
-![Item](https://i.imgur.com/hmrvHd7.png)
+![](https://i.imgur.com/hmrvHd7.png)
 **Leitura do arquivo .ini e importando os items**
-![Item](https://i.imgur.com/Axx115w.png)
+![](https://i.imgur.com/Axx115w.png)
 **Função para encontrar os POIs mais próximos**
-![Item](https://i.imgur.com/AO3PFlf.png)
+![](https://i.imgur.com/AO3PFlf.png)
 # Arquivo INI
 **Chave Config**
 Disponibiliza a quantidade total de coordenadas disponíveis, através da seção CordsTotal.
